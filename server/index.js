@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, '/../')));
 
 
 const url = 'https://api.coinmarketcap.com/v1/ticker/';
-const limit = '?limit=5';
+const limit = '?limit=25';
 
 
 app.get('/crypto', (req, res) => {
