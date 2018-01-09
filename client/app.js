@@ -9,7 +9,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      sample: 'Hello Michael!',
+      sample: 'Cryptocurrency Market',
       clicked: false,
       data: []
     }
