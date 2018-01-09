@@ -16,7 +16,7 @@ class coinList extends React.Component {
   }
 
   render() {
-        console.log('coinlist', this.props);
+    console.log('coinlist', this.props);
     return (
       <tbody>
       {this.props.data.map((coin, index) => {
